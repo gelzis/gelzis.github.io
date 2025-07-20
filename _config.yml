@@ -102,3 +102,20 @@ theme: Chic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+feed:
+  limit: 20
+  order_by: "-date"
+  tag_dir: "tag"
+  category_dir: "category"
+  rss:
+    enable: true
+    template: "themes/Chic/layout/_alternate/rss.ejs"
+    output: "rss.xml"
+  atom:
+    enable: true
+    template: "themes/Chic/layout/_alternate/atom.ejs"
+    output: "atom.xml"
+  jsonFeed:
+    enable: true
+    template: "themes/Chic/layout/_alternate/json.ejs"
+    output: "feed.json"
