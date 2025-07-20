@@ -1,0 +1,3 @@
+[submodule "themes/chic"]
+	path = themes/chic
+	url = git@github.com:gelzis/hexo-theme-Chic.git

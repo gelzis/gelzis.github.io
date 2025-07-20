@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Chic
+theme: chic
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -111,13 +111,13 @@ feed:
   category_dir: "category"
   rss:
     enable: true
-    template: "themes/Chic/layout/_alternate/rss.ejs"
+    template: "themes/chic/layout/_alternate/rss.ejs"
     output: "rss.xml"
   atom:
     enable: true
-    template: "themes/Chic/layout/_alternate/atom.ejs"
+    template: "themes/chic/layout/_alternate/atom.ejs"
     output: "atom.xml"
   jsonFeed:
     enable: true
-    template: "themes/Chic/layout/_alternate/json.ejs"
+    template: "themes/chic/layout/_alternate/json.ejs"
     output: "feed.json"
